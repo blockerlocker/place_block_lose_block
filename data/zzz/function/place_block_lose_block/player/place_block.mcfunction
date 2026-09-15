@@ -1,5 +1,5 @@
 advancement revoke @s only place_block_lose_block:place_block
-say place
+
 data modify storage bldp:array_random in set from storage place_block_lose_block:data all.enabled
 function bldp:func/array/random/init
 
