@@ -1,0 +1,3 @@
+data remove storage place_block_lose_block:data all.disabled
+
+function zzz:place_block_lose_block/create_item_list

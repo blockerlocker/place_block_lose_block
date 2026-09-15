@@ -1,0 +1,1 @@
+execute unless data storage place_block_lose_block:data all.enabled run function zzz:place_block_lose_block/create_item_list

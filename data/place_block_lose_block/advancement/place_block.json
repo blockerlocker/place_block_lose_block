@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "place_block": {
+            "trigger": "minecraft:placed_block"
+        }
+    },
+    "rewards": {
+        "function": "zzz:place_block_lose_block/player/place_block"
+    }
+}

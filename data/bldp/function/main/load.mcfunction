@@ -1,0 +1,3 @@
+scoreboard objectives add operator dummy
+
+execute unless data storage bldp:registry all.icon.item run function bldp:registry/icon/item
