@@ -1,1 +1,1 @@
-$data remove storage place_block_lose_block:data all.enabled[$(out)]
+$data remove storage place_block_lose_block:data all.enabled[$(index)]
