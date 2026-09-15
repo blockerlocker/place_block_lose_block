@@ -1,5 +1,6 @@
 {
     "values": [
-        "bldp:main/load"
+        "bldp:main/load",
+        "bldp:crafted_item/load"
     ]
 }
