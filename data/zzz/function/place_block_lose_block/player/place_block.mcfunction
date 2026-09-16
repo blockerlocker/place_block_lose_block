@@ -8,3 +8,5 @@ data modify storage place_block_lose_block:data all.disabled append from storage
 function zzz:place_block_lose_block/list/remove_from_enabled with storage bldp:array_random
 
 execute as @a at @s run function zzz:place_block_lose_block/player/notice with storage bldp:array_random
+
+function zzz:place_block_lose_block/list/update_count

@@ -1,0 +1,26 @@
+{
+    "type": "div",
+    "left": {
+        "type": "floor",
+        "input": {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "div",
+                    "left": {
+                        "type": "storage",
+                        "storage": "place_block_lose_block:data",
+                        "path": "all.enabled_count"
+                    },
+                    "right": {
+                        "type": "storage",
+                        "storage": "place_block_lose_block:data",
+                        "path": "all.total_count"
+                    }
+                },
+                10000
+            ]
+        }
+    },
+    "right": 100
+}
